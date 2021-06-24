@@ -1,0 +1,116 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../jj.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left:8% ;
+    padding-right:8% ;
+
+}
+.nav{
+    height:12% ;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width:50px;
+    cursor:pointer;
+
+}
+.icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:50px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 45px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.9s ease-in-out;
+    
+}
+ul li a:hover{
+    background-color:rgb(241, 156, 77);
+    color:black;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:white;
+    font-size: 100px;
+
+}
+p{
+    color:white;
+    font-size:15px;
+    line-height: 20px;
+}
+button{
+    width:180px;
+    color:white;
+    font-size: 18px;
+    padding:12px 0;
+    background: rgb(201, 141, 93);
+    border:0;
+    border-radius: 23px;
+    outline: none;
+    margin-top: 33px;
+
+}
+.card{
+    width:190px ;
+    height: 200px;
+    display:inline-block;
+    border-radius:10px ;
+    padding:20px 25px ;
+    box-sizing: border-box ;
+    cursor: pointer;
+    margin: 30px 15px;
+    background-image:url(../pic-1.png) ;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1{
+    background-image: url(../pic-1.png);
+}
+.card2{
+    background-image: url(../pic-4.png);
+}
+.card3{
+    background-image: url(../pic-2.png);
+    align-items: center;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
