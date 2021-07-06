@@ -1,7 +1,7 @@
 *{
     margin:0 ;
     padding:0 ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  'Courier New', Courier, monospace ;
 }
 
 .cont{
@@ -12,7 +12,24 @@
     background-size: cover;
     padding-left:8% ;
     padding-right:8% ;
+    animation: animate 16s ease-in-out infinite;
 
+}
+@keyframes  animate {
+    0%,100%{
+        background-image: url(../image/jj.jpg);
+
+    }
+    25%{
+        background-image: url(../image/jais5.jpg);
+    }
+    50%{
+        background-image: url(../image/jais6.jpg);
+    }
+    75%{
+        background-image: url(../image/jais7.jpg);
+    }
+    
 }
 .nav{
     height:12% ;
@@ -99,6 +116,7 @@ button{
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+    box-shadow: 1px 2px 10px 5px white;
 
 }
 .card1{
